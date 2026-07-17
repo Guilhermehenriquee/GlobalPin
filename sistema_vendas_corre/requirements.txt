@@ -1,4 +1,0 @@
-matplotlib
-pandas
-Pillow
-reportlab   # opcional para gerar relatórios PDF
