@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: titanor
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run render-build
+    startCommand: npm run start
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: titanor-db
+          property: connectionString
+      - key: AUTH_SECRET
+        generateValue: true
+      - key: ADMIN_EMAIL
+        value: admin@titanor.com.br
+      - key: ADMIN_PASSWORD
+        value: Titanor@2026
+      - key: NEXT_PUBLIC_APP_URL
+        value: https://titanor.onrender.com
+      - key: NEXT_PUBLIC_ENABLE_MOCK_PAYMENTS
+        value: "true"
+      - key: NEXT_PUBLIC_WHATSAPP_NUMBER
+        value: "5511999999999"
+
+databases:
+  - name: titanor-db
+    plan: free

@@ -1,0 +1,24 @@
+# Runtime/local data
+db/*.db
+db/*.sqlite
+db/whatsapp_inbox.json
+.env
+.env.*
+!.env.example
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+build/
+dist/
+
+# Node/package artifacts
+node_modules/
+npm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.codex/
