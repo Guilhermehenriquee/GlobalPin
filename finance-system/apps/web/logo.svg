@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 192" role="img" aria-labelledby="title desc">
+  <title id="title">Finance System</title>
+  <desc id="desc">Logo horizontal do Finance System com símbolo de IA financeira pessoal para PF, PJ e Open Finance.</desc>
+  <defs>
+    <linearGradient id="word" x1="240" y1="48" x2="760" y2="146" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F5F9"/>
+      <stop offset=".55" stop-color="#BFDBFE"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="24" y1="20" x2="168" y2="172" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4"/>
+      <stop offset=".5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="line" x1="52" y1="118" x2="146" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset=".55" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="172" height="172" rx="42" fill="#070B14"/>
+  <rect x="16" y="16" width="160" height="160" rx="38" fill="#0D1525" stroke="url(#accent)" stroke-width="6"/>
+  <path d="M96 40 140 58v35c0 34-18 61-44 76-26-15-44-42-44-76V58l44-18Z" fill="#111B2E" stroke="#3B82F6" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M50 116c18 0 30-8 39-24l15 22c12-32 25-47 49-53" fill="none" stroke="url(#line)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72 84h38M72 104h29M72 84v50" fill="none" stroke="#F8FAFC" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="48" cy="86" r="7" fill="#10B981"/>
+  <circle cx="149" cy="58" r="7" fill="#8B5CF6"/>
+  <circle cx="104" cy="115" r="8" fill="#06B6D4"/>
+  <text x="204" y="101" fill="url(#word)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="900" letter-spacing="-2">Finance</text>
+  <text x="394" y="101" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-2">System</text>
+  <path d="M204 128h356" stroke="#06B6D4" stroke-width="6" stroke-linecap="round" opacity=".36"/>
+  <text x="206" y="158" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">IA FINANCEIRA PF + PJ + OPEN FINANCE</text>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "name": "Finance System",
+  "short_name": "Finance IA",
+  "description": "IA financeira pessoal gratuita para PF, PJ, Open Finance, score, metas e decisões diárias.",
+  "start_url": "/app",
+  "scope": "/app",
+  "display": "standalone",
+  "background_color": "#070B14",
+  "theme_color": "#06B6D4",
+  "icons": [
+    {
+      "src": "/app/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
